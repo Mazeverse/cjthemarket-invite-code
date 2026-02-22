@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CJ더마켓 초대코드 | 5,000원 혜택 받기</title>
+
+<meta name="description" content="CJ더마켓 초대코드 입력 시 쇼핑에 사용할 수 있는 5,000원 지급. 초대코드 QGRH6359 또는 QGSM1448 복사해서 바로 사용하세요." />
+<meta name="keywords" content="CJ더마켓 초대코드, CJ더마켓 추천인, CJ더마켓 가입코드" />
+<meta name="robots" content="index,follow" />
+
+<meta name="google-site-verification" content="BtBII3918J1J9BnNiNfjVaPn0QXfIj5xoi1G_8qtFk4" />
+<meta name="naver-site-verification" content="f28f86b7853e4f6704297b86d7def790b41e00e4" />
+
+<meta property="og:title" content="CJ더마켓 초대코드 | 5,000원 혜택 받기" />
+<meta property="og:description" content="CJ더마켓 가입 시 초대코드 입력하면 5,000원 지급!" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://example.com/" />
+
+<style>
+body {
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans KR,sans-serif;
+  background:#0e0e11;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+}
+
+.container {
+  text-align:center;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.15);
+  padding:32px;
+  border-radius:18px;
+  width:min(600px,90%);
+  box-shadow:0 20px 60px rgba(0,0,0,.5);
+}
+
+h1 {
+  margin-top:0;
+}
+
+.codebox {
+  margin:20px 0;
+  padding:16px;
+  border-radius:12px;
+  background:rgba(255,255,255,0.08);
+  border:1px solid rgba(255,255,255,0.2);
+}
+
+.code {
+  font-size:24px;
+  font-weight:800;
+  letter-spacing:2px;
+  margin-bottom:10px;
+}
+
+button, a {
+  padding:12px 16px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,.2);
+  background:rgba(255,255,255,.08);
+  color:white;
+  font-weight:700;
+  cursor:pointer;
+  text-decoration:none;
+  margin:4px;
+}
+
+button:hover, a:hover {
+  background:rgba(255,255,255,.2);
+}
+
+.toast {
+  position:fixed;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  background:#111;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid #fff;
+  opacity:0;
+  transition:.2s;
+}
+
+.toast.show { opacity:1; }
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "WebPage", "name": "CJ더마켓 초대코드", "dateModified": "2026-02-22", "url": "https://example.com/", "inLanguage": "ko"}
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+<h1>CJ더마켓 초대코드</h1>
+
+<p>가입 시 초대코드를 입력하면<br><b>쇼핑에 사용할 수 있는 5,000원</b>을 바로 받을 수 있어요.</p>
+
+<div class="codebox">
+<div class="code">QGRH6359</div>
+<button onclick="copyCode('QGRH6359')">복사하기</button>
+</div>
+
+<div class="codebox">
+<div class="code">QGSM1448</div>
+<button onclick="copyCode('QGSM1448')">복사하기</button>
+</div>
+
+<p>원하는 코드 아무거나 사용하면 됩니다.</p>
+
+<a href="https://www.cjthemarket.com/" target="_blank">CJ더마켓 바로가기</a>
+
+</div>
+
+<div id="toast" class="toast">복사 완료!</div>
+
+<script>
+function copyCode(code){
+ navigator.clipboard.writeText(code);
+ const t=document.getElementById("toast");
+ t.classList.add("show");
+ setTimeout(()=>t.classList.remove("show"),1400);
+}
+</script>
+
+</body>
+</html>
