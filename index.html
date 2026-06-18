@@ -1,259 +1,225 @@
-<!DOCTYPE html>
+<!doctype html>
+
+
+
 <html lang="ko">
+
 <head>
-  <meta name="google-site-verification" content="4w8ad7VF9_SQmDTCF2Q0Y3V6BoNc5ufAWmZqN6buaI4" />
-  <meta name="naver-site-verification" content="96c55385412ec0859f925f1ac632f81465612dce" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CJ더마켓 초대코드 5,000원 받기 | 신규 가입 혜택</title>
-  <meta name="description" content="CJ더마켓 신규 가입하고 초대코드 입력하면 5,000원 즉시 적립. 아래 코드를 복사해서 가입 창에 붙여넣기만 하면 끝!" />
-  <meta name="keywords" content="CJ더마켓 초대코드, CJ더마켓 추천인코드, CJ더마켓 가입혜택" />
-  <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://cj-welcome-cf.pages.dev/" />
-  <meta property="og:title" content="CJ더마켓 초대코드 5,000원 받기" />
-  <meta property="og:description" content="가입할 때 초대코드만 입력하면 5,000원이 바로 적립됩니다." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://cj-welcome-cf.pages.dev/" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "CJ더마켓 초대코드는 무엇인가요?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CJ더마켓 가입 시 추천인 코드를 입력하면 5,000원 적립금을 받을 수 있습니다."
-      }
-    }, {
-      "@type": "Question",
-      "name": "CJ더마켓 초대코드를 어디에 입력하나요?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "회원가입 페이지의 '초대코드' 입력란에 코드를 붙여넣으면 즉시 5,000원이 지급됩니다."
-      }
-    }],
-    "dateModified": "2026-06-18"
-  }
-  </script>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: linear-gradient(145deg, #0b0b12 0%, #14141f 100%);
-      min-height: 100vh;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", system-ui, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #eee;
-      padding: 20px;
-    }
-    .wrapper {
-      max-width: 640px;
-      width: 100%;
-    }
-    .hero {
-      text-align: center;
-      margin-bottom: 32px;
-    }
-    .hero h1 {
-      font-size: 28px;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      background: linear-gradient(135deg, #fbbf24, #f59e0b);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 12px;
-    }
-    .hero p {
-      color: #a0a0b0;
-      font-size: 16px;
-      line-height: 1.6;
-    }
-    .hero p strong {
-      color: #fbbf24;
-      -webkit-text-fill-color: #fbbf24;
-    }
-    .steps {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      margin: 24px 0 32px;
-      flex-wrap: wrap;
-    }
-    .step {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 40px;
-      padding: 8px 18px;
-      font-size: 14px;
-      color: #888;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .step span {
-      background: #fbbf24;
-      color: #0b0b12;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      font-weight: 700;
-    }
-    .row {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-    .card {
-      flex: 1;
-      min-width: 200px;
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 16px;
-      padding: 24px 20px 20px;
-      text-align: center;
-      transition: border-color 0.2s;
-    }
-    .card:hover {
-      border-color: rgba(251, 191, 36, 0.35);
-    }
-    .card .label {
-      font-size: 13px;
-      color: #888;
-      margin-bottom: 10px;
-    }
-    .card .code {
-      font-size: 26px;
-      font-weight: 800;
-      letter-spacing: 3px;
-      color: #fff;
-      margin-bottom: 14px;
-      font-family: "SF Mono", "Fira Code", monospace;
-    }
-    .btn {
-      display: inline-block;
-      padding: 10px 22px;
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 40px;
-      background: rgba(255,255,255,0.06);
-      color: #ddd;
-      font-weight: 600;
-      font-size: 14px;
-      cursor: pointer;
-      transition: all 0.2s;
-      text-decoration: none;
-    }
-    .btn:hover {
-      background: rgba(251, 191, 36, 0.15);
-      border-color: #fbbf24;
-      color: #fbbf24;
-    }
-    .cta-wrap {
-      text-align: center;
-      margin-top: 28px;
-    }
-    .btn-primary {
-      background: linear-gradient(135deg, #fbbf24, #f59e0b);
-      color: #0b0b12;
-      border: none;
-      font-weight: 700;
-      padding: 14px 36px;
-      font-size: 16px;
-    }
-    .btn-primary:hover {
-      background: linear-gradient(135deg, #fcd34d, #fbbf24);
-      color: #0b0b12;
-    }
-    .footer-note {
-      text-align: center;
-      margin-top: 24px;
-      font-size: 13px;
-      color: #555;
-    }
-    .toast {
-      position: fixed;
-      bottom: 28px;
-      left: 50%;
-      transform: translateX(-50%) translateY(20px);
-      background: #1c1c28;
-      border: 1px solid rgba(255,255,255,0.12);
-      padding: 10px 20px;
-      border-radius: 40px;
-      font-size: 14px;
-      color: #bbb;
-      opacity: 0;
-      transition: all 0.25s ease;
-      pointer-events: none;
-    }
-    .toast.show {
-      opacity: 1;
-      transform: translateX(-50%) translateY(0);
-    }
-    @media (max-width: 460px) {
-      .hero h1 { font-size: 22px; }
-      .row { flex-direction: column; }
-      .card { min-width: auto; }
-    }
-  </style>
+
+<meta name="msvalidate.01" content="ABE4E35B295D432B9749BC46596F6A38" />
+
+<link rel="canonical" href="https://cjthemarket-invite-code.vercel.app/" />
+
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>CJ더마켓 초대코드 | 5,000원 혜택 받기</title>
+
+<meta name="description" content="CJ더마켓 초대코드 입력 시 쇼핑에 사용할 수 있는 5,000원 지급. 초대코드 QGRH6359 또는 QGUV1229 복사해서 바로 사용하세요." />
+
+<meta name="keywords" content="CJ더마켓 초대코드, CJ더마켓 추천인, CJ더마켓 가입코드" />
+
+<meta name="robots" content="index,follow" />
+
+<meta name="google-site-verification" content="BtBII3918J1J9BnNiNfjVaPn0QXfIj5xoi1G_8qtFk4" />
+
+<meta name="naver-site-verification" content="b7b9ed0a2f9cc73ef6c50f28c1fed8af9da0d64c" />
+
+<meta property="og:title" content="CJ더마켓 초대코드 | 5,000원 혜택 받기" />
+
+<meta property="og:description" content="CJ더마켓 가입 시 초대코드 입력하면 5,000원 지급!" />
+
+<meta property="og:type" content="website" />
+
+<meta property="og:url" content="https://cjthemarket-invite-code.vercel.app/" />
+
+<style>
+
+body {
+
+margin:0;
+
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans KR,sans-serif;
+
+background:#0e0e11;
+
+color:#fff;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+min-height:100vh;
+
+}
+
+.container {
+
+text-align:center;
+
+background:rgba(255,255,255,0.05);
+
+border:1px solid rgba(255,255,255,0.15);
+
+padding:32px;
+
+border-radius:18px;
+
+width:min(600px,90%);
+
+box-shadow:0 20px 60px rgba(0,0,0,.5);
+
+}
+
+h1 {
+
+margin-top:0;
+
+}
+
+.codebox {
+
+margin:20px 0;
+
+padding:16px;
+
+border-radius:12px;
+
+background:rgba(255,255,255,0.08);
+
+border:1px solid rgba(255,255,255,0.2);
+
+}
+
+.code {
+
+font-size:24px;
+
+font-weight:800;
+
+letter-spacing:2px;
+
+margin-bottom:10px;
+
+}
+
+button, a {
+
+padding:12px 16px;
+
+border-radius:10px;
+
+border:1px solid rgba(255,255,255,.2);
+
+background:rgba(255,255,255,.08);
+
+color:white;
+
+font-weight:700;
+
+cursor:pointer;
+
+text-decoration:none;
+
+margin:4px;
+
+}
+
+button:hover, a:hover {
+
+background:rgba(255,255,255,.2);
+
+}
+
+.toast {
+
+position:fixed;
+
+bottom:20px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+background:#111;
+
+padding:10px 14px;
+
+border-radius:999px;
+
+border:1px solid #fff;
+
+opacity:0;
+
+transition:.2s;
+
+}
+
+.toast.show { opacity:1; }
+
+</style>
+
+<script type="application/ld+json">
+
+{"@context": "https://schema.org", "@type": "WebPage", "name": "CJ더마켓 초대코드", "dateModified": "2026-02-22", "url": "https://cjthemarket-invite-code.vercel.app/", "inLanguage": "ko"}
+
+</script>
+
 </head>
+
 <body>
-  <div class="wrapper">
-    <div class="hero">
-      <h1>🎁 CJ더마켓 5,000원 받기</h1>
-      <p>신규 가입할 때 <strong>초대코드</strong>만 입력하면<br>쇼핑에 바로 쓸 수 있는 <strong>5,000원 적립금</strong>을 즉시 지급해 드려요.</p>
-    </div>
 
-    <div class="steps">
-      <div class="step"><span>1</span> 코드 선택</div>
-      <div class="step"><span>2</span> 복사하기</div>
-      <div class="step"><span>3</span> 가입 시 입력</div>
-    </div>
+<div class="container">
 
-    <div class="row">
-      <div class="card">
-        <div class="label">첫 번째 초대코드</div>
-        <div class="code" id="code1">QGRH6359</div>
-        <button class="btn" onclick="copyCode('QGRH6359')">📋 코드 복사</button>
-      </div>
-      <div class="card">
-        <div class="label">두 번째 초대코드</div>
-        <div class="code" id="code2">QGSM1448</div>
-        <button class="btn" onclick="copyCode('QGSM1448')">📋 코드 복사</button>
-      </div>
-    </div>
+<h1>CJ더마켓 초대코드</h1>
 
-    <div class="cta-wrap">
-      <a class="btn btn-primary" href="https://www.cjthemarket.com/" target="_blank" rel="noopener noreferrer">CJ더마켓 가입하러 가기 →</a>
-    </div>
+<p>가입 시 초대코드를 입력하면<br><b>쇼핑에 사용할 수 있는 5,000원</b>을 바로 받을 수 있어요.</p>
 
-    <div class="footer-note">코드는 하나만 입력하면 되며, 중복 사용은 불가합니다.</div>
-  </div>
+<div class="codebox">
 
-  <div id="toast" class="toast">✅ 초대코드가 복사되었습니다!</div>
+<div class="code">QGRH6359</div>
 
-  <script>
-    function copyCode(code) {
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(code);
-      } else {
-        const ta = document.createElement('textarea');
-        ta.value = code;
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand('copy');
-        document.body.removeChild(ta);
-      }
-      const t = document.getElementById('toast');
-      t.classList.add('show');
-      clearTimeout(t._timer);
-      t._timer = setTimeout(() => t.classList.remove('show'), 1500);
-    }
-  </script>
+<button onclick="copyCode('QGRH6359')">복사하기</button>
+
+</div>
+
+
+
+<div class="codebox">
+
+<div class="code">QGSM1448</div>
+
+<button onclick="copyCode('QGSM1448')">복사하기</button>
+
+</div>
+
+<p>원하는 코드 아무거나 사용하면 됩니다.</p>
+
+<a href="https://www.cjthemarket.com/" target="_blank">CJ더마켓 바로가기</a>
+
+</div>
+
+<div id="toast" class="toast">복사 완료!</div>
+
+<script>
+
+function copyCode(code){
+
+navigator.clipboard.writeText(code);
+
+const t=document.getElementById("toast");
+
+t.classList.add("show");
+
+setTimeout(()=>t.classList.remove("show"),1400);
+
+}
+
+</script>
+
 </body>
+
 </html>
